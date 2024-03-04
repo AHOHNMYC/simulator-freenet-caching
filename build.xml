@@ -22,6 +22,9 @@
 		description="generate the distribution" >
 		<jar jarfile="${dist}/simulator-freenet-caching.jar" duplicate="fail">
 			<fileset dir="${build}/"/>
+            <manifest>
+                <attribute name="Main-Class" value="CachingSim.main"/>
+            </manifest>
 		</jar>
 	</target>
 
