@@ -27,7 +27,7 @@ class UTest
 			while (true) {
 				String s = in.readLine();
 				if (s == null) break;
-				arr.add (new Double (s));
+				arr.add (Double.valueOf(s));
 			}
 			in.close();
 		}
