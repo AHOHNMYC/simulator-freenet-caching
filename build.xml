@@ -11,7 +11,7 @@
 		<mkdir dir="${dist}"/>
 	</target>
 	
-	<target name="compile" depends="mkdir,setver" >
+	<target name="compile" depends="mkdir" >
 		<tstamp/>
 		<javac srcdir="src/" destdir="${build}" debug="on" optimize="on" source="${source-version}" target="${target-version}" includeantruntime="false">
 			<include name="**/*.java"/>
