@@ -23,7 +23,7 @@
 		<jar jarfile="${dist}/simulator-freenet-caching.jar" duplicate="fail">
 			<fileset dir="${build}/"/>
             <manifest>
-                <attribute name="Main-Class" value="CachingSim.main"/>
+                <attribute name="Main-Class" value="UTest"/>
             </manifest>
 		</jar>
 	</target>
